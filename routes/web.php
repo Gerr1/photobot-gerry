@@ -14,7 +14,7 @@ use Illuminate\Http\Request; // <--- PENTING: Wajib ada agar input nama berfungs
 
 // 1. Halaman Depan (Input Nama)
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
+    return Inertia::render('Welcome1', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,
