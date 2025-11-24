@@ -25,10 +25,10 @@ const MaintenancePage = () => {
           Perkiraan Waktu Kembali Online:
         </p>
         <p className="text-2xl font-bold text-gray-900">
-          Minggu, 23 November 2025
+          Minggu, 26 November 2025
         </p>
         <p className="text-xl font-medium text-gray-700 mt-1">
-          Pukul 14:00 WIB
+          Pukul 17:00 WIB
         </p>
       </div>
 
@@ -49,3 +49,4 @@ const MaintenancePage = () => {
 
 
 export default MaintenancePage;
+
